@@ -1,3 +1,36 @@
 2019-07-26 22:27:55 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE DATABASE[*] IF NOT EXISTS MINI_JAVA_EVERYTHING;DROP TABLE IF EXISTS FILE_INDEX;CREATE TABLE IF NOT EXISTS FILE_INDEX(  NAME VARCHAR(256) NOT NULL COMMENT '文件名称',  PATH VARCHAR(1024) NOT NULL COMMENT '文件路径',  DEPTH INT NOT NULL COMMENT '文件路径深度',  FILE_TYPE VARCHAR(32) NOT NULL COMMENT '文件类型'); "; expected "OR, FORCE, VIEW, ALIAS, SEQUENCE, USER, TRIGGER, ROLE, SCHEMA, CONSTANT, DOMAIN, TYPE, DATATYPE, AGGREGATE, LINKED, MEMORY, CACHED, LOCAL, GLOBAL, TEMP, TEMPORARY, TABLE, SYNONYM, PRIMARY, UNIQUE, HASH, SPATIAL, INDEX"; SQL statement:
 create database if not exists mini_java_everything;drop table if exists file_index;create table if not exists file_index(  name varchar(256) not null comment '文件名称',  path varchar(1024) not null comment '文件路径',  depth int not null comment '文件路径深度',  file_type varchar(32) not null comment '文件类型'); [42001-198]
+2019-07-27 07:59:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX WHERE NAME LIKE '% 简历%'  ORDER BY DEPTH ASC LIMIT 1 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index where name like '% 简历%'  order by depth asc limit 1 offest 0  [42000-198]
+2019-07-27 08:02:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX WHERE NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 1 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index where name like '%简历%'  order by depth asc limit 1 offest 0  [42000-198]
+2019-07-27 08:04:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX  WHERE  NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 1 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index  where  name like '%简历%'  order by depth asc limit 1 offest 0  [42000-198]
+2019-07-27 08:04:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX  WHERE  NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 1 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index  where  name like '%简历%'  order by depth asc limit 1 offest 0  [42000-198]
+2019-07-27 08:06:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX  WHERE  NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 2 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index  where  name like '%简历%'  order by depth asc limit 2 offest 0  [42000-198]
+2019-07-27 08:19:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX  WHERE  NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 2 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index  where  name like '%简历%'  order by depth asc limit 2 offest 0  [42000-198]
+2019-07-27 08:20:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX  WHERE  NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 2 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index  where  name like '%简历%'  order by depth asc limit 2 offest 0  [42000-198]
+2019-07-27 08:28:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX  WHERE  NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 2 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index  where  name like '%简历%'  order by depth asc limit 2 offest 0  [42000-198]
+2019-07-27 08:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX  WHERE  NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 2 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index  where  name like '%简历%'  order by depth asc limit 2 offest 0  [42000-198]
+2019-07-27 09:44:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX  WHERE  NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 2 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index  where  name like '%简历%'  order by depth asc limit 2 offest 0  [42000-198]
+2019-07-27 12:32:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement " SELECT NAME,PATH,DEPTH,FILE_TYPE FROM FILE_INDEX WHERE  NAME LIKE '%简历%'  ORDER BY DEPTH ASC LIMIT 2 OFFEST[*] 0  "; SQL statement:
+ select name,path,depth,file_type from file_index where  name like '%简历%'  order by depth asc limit 2 offest 0  [42000-198]

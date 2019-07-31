@@ -32,3 +32,4 @@ java -jar mini-java-everything-1.0.0.jar
 JDBC规范中关于H2 jdbc:h2:filepath-->存储到本地文件
 JDBC规范中关于H2 jdbc:h2:~/filepath-->存储到当前用户的home目录
 JDBC规范中关于H2 jdbc:h2://ip:port/databaseName-->存储到服务器
+

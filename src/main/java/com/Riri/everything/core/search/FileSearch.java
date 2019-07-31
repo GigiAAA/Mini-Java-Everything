@@ -1,7 +1,10 @@
 package com.Riri.everything.core.search;
 
+import com.Riri.everything.core.dao.DataSourceFactory;
+import com.Riri.everything.core.dao.impl.FileIndexImpl;
 import com.Riri.everything.core.model.Condition;
 import com.Riri.everything.core.model.Thing;
+import com.Riri.everything.core.search.impl.FileSearchImpl;
 
 import java.util.List;
 
@@ -10,4 +13,11 @@ import java.util.List;
  */
 public interface FileSearch {
     List<Thing> search(Condition condition);
+
+    public static void main(String[] args) {
+        //TODO
+        FileSearch fileSearch=new FileSearchImpl(new FileIndexImpl(DataSourceFactory.dataSource()));
+        List<Thing> list=fileSearch.search(new Condition());
+        System.out.println(list);
+    }
 }
