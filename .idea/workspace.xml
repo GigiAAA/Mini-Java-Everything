@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a058a850-5b1b-4e21-b2af-df14444e82f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/dao/FileIndexDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/dao/impl/FileIndexImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/index/FileIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/index/impl/FileIndexImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_java_everything.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/mini_java_everything.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_java_everything.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/mini_java_everything.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/model/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/model/Condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/model/FileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/model/FileType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/model/Thing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/model/Thing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/search/FileSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/search/FileSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/search/impl/FileSearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Riri/everything/core/search/impl/FileSearchImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Riri/everything/core/dao/DataSourceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Riri/everything/core/dao/DataSourceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Riri/everything/core/model/Condition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Riri/everything/core/model/Condition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Riri/everything/core/model/FileType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Riri/everything/core/model/FileType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Riri/everything/core/model/Thing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Riri/everything/core/model/Thing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mini_java_everything.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mini_java_everything.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,7 +60,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
+            <state relative-caret-position="-62">
               <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
@@ -156,7 +138,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-118" />
     <option name="y" value="22" />
     <option name="width" value="818" />
@@ -431,12 +413,12 @@
       <workItem from="1564139976665" duration="21928000" />
       <workItem from="1564400380233" duration="1269000" />
       <workItem from="1564442702987" duration="2411000" />
-      <workItem from="1564530596959" duration="819000" />
+      <workItem from="1564530596959" duration="1062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31730000" />
+    <option name="totallyTimeSpent" value="31973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,7 +430,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.05529954" />
@@ -461,10 +443,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.48847926" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.5422427" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.875576" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.49846625" visible="true" weight="0.17170954" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.49846625" visible="true" weight="0.17170954" />
       <window_info anchor="right" id="Database" order="3" weight="0.29954615" />
       <window_info id="Structure" order="4" sideWeight="0.50153375" side_tool="true" weight="0.115733735" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -782,7 +764,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
+        <state relative-caret-position="-62">
           <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
